@@ -8,7 +8,7 @@ beta = 1e20;%1e3
 addpath(['./FP_Func']);
 addpath('natsortfiles');
 
-filedir = ['D:/MATLAB/Mutiplexed-FPM/1LED/tif/'];
+filedir = ['/home/jnu733/qwm/data/usaf1led/'];
 % filedir = ['D:/workapp/matlab/workstation/QWM-FPM/data/1_LED/tif/'];
 imglist = dir([filedir,'*.tif']);
 %nstart = [1017,1217];

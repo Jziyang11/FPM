@@ -1,4 +1,4 @@
-0%% tianlei 1led liang && 4led anchang
+%% tianlei 1led liang && 4led anchang
 %clc;
 clc;
 clear all;
@@ -25,7 +25,7 @@ n = 384;
 m1 = m/3; %
 n1 = n/3; %
 
-mag = 8.1485; % 显微镜放大倍数
+mag = 8.1485;
 dpix_c = 6.5; %6.5um pixel size on the sensor plane
 dpix_m = dpix_c/mag; 
 dkx = 1/((m1-1)*dpix_m);
